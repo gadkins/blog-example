@@ -1,4 +1,5 @@
 import "@/styles/globals.css"
+import Image from 'next/image'
 import { Metadata } from "next"
 import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"

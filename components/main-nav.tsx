@@ -24,7 +24,7 @@ import {
 const components: { title: string; href: string; description: string }[] = [
   {
     title: "Fine-tuning",
-    href: "/docs/use-cases/development",
+    href: "/notebooks",
     description:
       "Chat and instruction fine-tuning",
   },
@@ -92,7 +92,7 @@ export function MainNav() {
             </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <NavigationMenuTrigger>Artificial Intelligence</NavigationMenuTrigger>
+            <NavigationMenuTrigger>Notebooks</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
                 {components.map((component) => (
